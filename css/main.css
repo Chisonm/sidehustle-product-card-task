@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container {
+    width: 70%;
+    margin: 5% auto;
+}
+
+.product-card_container {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.annual-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.payment-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.product-card {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.order-summary {
+    padding: 15px;
+    text-align: center;
+}
+
+.order-summary h4 {
+    margin-bottom: 1rem;
+    font-size: 22px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.order-summary p {
+    margin-bottom: 1rem;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: hsl(224, 23%, 55%);
+}
+
+.product-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+.music-icon-section {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    margin-right: 6rem;
+}
+
+.music-icon-section img {
+    margin-right: 1rem;
+}
+
+.annual-title_price h5 {
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: hsl(223, 47%, 23%);
+}
+
+.annual-title_price p {
+    font-size: 14px;
+    margin: 0;
+    color: hsl(224, 23%, 55%);
+}
+
+.change_btn a {
+    font-weight: 600;
+    color: hsl(245, 75%, 52%);
+}
+.change_btn a:active {
+    color: hsl(223, 47%, 23%);
+}
+.change_btn a:focus {
+    color: hsl(223, 47%, 23%);
+}
+
+.annual-plan {
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    margin-bottom: 2rem;
+}
+
+.payment-btn .proceed_btn {
+    text-align: center;
+    color: #fff;
+    background-color: hsl(245, 75%, 52%);
+    margin-bottom: 1rem;
+    padding: 12px 30px;
+    border-radius: 10px;
+}
+
+.payment-btn .proceed_btn:active {
+    background-color: hsl(224, 23%, 55%);
+}
+.payment-btn .proceed_btn:focus {
+    background-color: hsl(224, 23%, 55%);
+}
+.payment-btn .cancel_btn:active {
+    color: hsl(223, 47%, 23%);
+}
+.payment-btn .cancel_btn:focus {
+    color: hsl(223, 47%, 23%);
+}
+
+.payment-btn .cancel_btn {
+    text-align: center;
+    color: hsl(245, 75%, 52%);
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.payment-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-wrapper {
+    background-image: url('../images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 55%;
+    background-position: top center;
+    background-color: hsl(225, 100%, 94%);
+    padding: 3rem 0;
+}
+
+@media (min-width: 375px) {
+    .container {
+        width: 90%;
+        margin: 5% auto;
+    }
+    .product-card_container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .annual-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .payment-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .annual-plan {
+        border-radius: 10px;
+        padding: 10px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: hsl(225, 100%, 98%);
+        margin-bottom: 2rem;
+    }
+    .order-summary h4 {
+        margin-bottom: 1rem;
+        font-size: 18px;
+        font-weight: 900;
+        color: hsl(223, 47%, 23%);
+    }
+    .order-summary p {
+        margin-bottom: 1rem;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.5;
+        color: hsl(224, 23%, 55%);
+    }
+    .music-icon-section img {
+        width: 40%;
+        height: 40%;
+        margin-right: 1rem;
+    }
+    .annual-title_price h5 {
+        font-size: 11px;
+        font-weight: 900;
+        margin-top: 0;
+        margin-bottom: 5px;
+        color: hsl(223, 47%, 23%);
+    }
+    .annual-title_price p {
+        font-size: 12px;
+        margin: 0;
+        color: hsl(224, 23%, 55%);
+    }
+    .change_btn a {
+        font-size: 12px;
+        font-weight: 600;
+        color: hsl(245, 75%, 52%);
+    }
+    .payment-btn .proceed_btn {
+        text-align: center;
+        color: #fff;
+        background-color: hsl(245, 75%, 52%);
+        margin-bottom: 1rem;
+        padding: 12px 20px;
+        border-radius: 10px;
+        font-size: 13px;
+    }
+    .payment-btn .cancel_btn {
+        text-align: center;
+        color: hsl(245, 75%, 52%);
+        font-weight: 600;
+        margin-bottom: 2rem;
+        font-size: 13px;
+    }
+    .card-wrapper {
+        background-image: url('../images/pattern-background-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: 100% 55%;
+        background-position: top center;
+        background-color: hsl(225, 100%, 94%);
+        padding: 3rem 0;
+    }
+}
+
+@media (max-width: 1440px) {
+    .container {
+        width: 95%;
+        margin: 5% auto;
+    }
+    .product-card_container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .annual-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .payment-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .annual-plan {
+        border-radius: 10px;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: hsl(225, 100%, 98%);
+        margin-bottom: 2rem;
+    }
+    .card-wrapper {
+        background-image: url('../images/pattern-background-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: 100% 55%;
+        background-position: top center;
+        background-color: hsl(225, 100%, 94%);
+        padding: 3rem 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 90%;
+        margin: 5% auto;
+    }
+    .product-card_container {
+        width: 30%;
+        margin: 0 auto;
+    }
+    .annual-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .payment-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .annual-plan {
+        border-radius: 10px;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: hsl(225, 100%, 98%);
+        margin-bottom: 2rem;
+    }
+    .card-wrapper {
+        background-image: url('../images/pattern-background-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: 100% 55%;
+        background-position: top center;
+        background-color: hsl(225, 100%, 94%);
+        padding: 3rem 0;
+    }
+}
+
+/* @media (min-width: 768px) {
+    .container {
+        width: 90%;
+        margin: 5% auto;
+    }
+    .product-card_container {
+        width: 40%;
+        margin: 0 auto;
+    }
+    .annual-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .payment-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .annual-plan {
+        border-radius: 10px;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: hsl(225, 100%, 98%);
+        margin-bottom: 2rem;
+    }
+    .card-wrapper {
+        background-image: url('../images/pattern-background-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: 100% 55%;
+        background-position: top center;
+        background-color: hsl(225, 100%, 94%);
+        padding: 3rem 0;
+    }
+} */
